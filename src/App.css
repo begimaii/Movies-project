@@ -1,0 +1,13 @@
+#root {
+  overflow-y: scroll; /* Allows content to scroll but hides scrollbar */
+  margin: 0 auto;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  /* text-align: center; */
+  /* display: flex; */
+
+  flex-direction: column;
+}
+#root::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}

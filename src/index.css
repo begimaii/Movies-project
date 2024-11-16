@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: url(./assets/bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: rgba(27, 26, 26, 0.861);
+  display: flex;
+}
+.search-bar {
+  border: none;
+  outline: none;
+  width: 20vw;
+}
+.css-jfsfvu {
+  padding: 0;
+}
+.menu {
+  transition: background-color 0.9s ease-in-out;
+}
+.menu:hover {
+  cursor: pointer;
+  color: red;
+}
+.feed {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedError.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-colorError.MuiButton-root.MuiButton-outlined.MuiButton-outlinedError.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-colorError.css-1jxo6a3-MuiButtonBase-root-MuiButton-root {
+  margin-top: 0px;
+  color: rgb(205, 72, 72);
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedError.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorError.MuiButton-root.MuiButton-contained.MuiButton-containedError.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorError.css-1p4dihm-MuiButtonBase-root-MuiButton-root {
+  margin-top: 0px;
+  color: rgb(205, 72, 72);
+}
+
+.genre {
+  color: rgb(205, 72, 72);
+  font-size: x-large;
+  margin-top: 15px;
+}
+input {
+  width: 18vw;
+}
+.menu-bar {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.movie-rating {
+  border: solid 3px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 8px;
+  width: 10%;
+  position: absolute;
+  top: 68%;
+  font-weight: bold;
+  font-size: 13px;
+  background: rgba(27, 26, 26, 0.861);
+  color: rgb(236, 180, 11);
+  outline: solid 2px rgb(245, 238, 238);
+}
+.low-rating {
+  border-color: rgb(197, 161, 32);
+}
+
+.high-rating {
+  border-color: rgb(37, 196, 108);
+}
+.css-32xznx {
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.css-w76bbz-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  color: red;
+}
+.css-1toxriw-MuiList-root-MuiMenu-list {
+  background: transparent;
+  color: aliceblue;
+  /* background-color: rgba(27, 26, 26, 0.861); */
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.MuiMenu-paper.MuiMenu-paper.css-1tktgsa-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  background-color: rgba(27, 26, 26, 0.861);
+}
+.css-w76bbz-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-w76bbz-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-w76bbz-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  color: rgb(205, 72, 72);
+}
+#basic-button {
+  color: rgb(205, 72, 72);
+}
+#demo-simple-select-helper-label {
+  /* display: non; */
+  font-weight: bold;
+  font-size: 18px;
+}
+#demo-simple-select-helper {
+  background-color: whitesmoke;
+  font-size: 15px;
+  padding-left: 3px;
+}
+#demo-simple-select-helper1 {
+  background-color: whitesmoke;
+  font-size: 15px;
+  padding-left: 3px;
+}
+#demo-simple-select-helper-label1 {
+  /* display: non; */
+  font-weight: bold;
+  font-size: 18px;
+}
+.providers {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 160px;
+  overflow: hidden;
+  padding-left: "20px";
+  gap: "10px";
+  height: "200px";
+  /* background: rgba(27, 26, 26, 0.861); */
+}
+
+.person-card {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.people-box {
+  margin: 20px 20px;
+  align-content: center;
+}
